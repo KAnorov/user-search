@@ -15,3 +15,38 @@ body {
   background-color: #f4f4f4;
   
 }
+
+.styleTable {
+  border: 1px solid transparent;
+  border-collapse: collapse;
+  box-shadow: 6px 8px 8px 8px rgba(34, 60, 80, 0.2);
+  animation: fadeIn 0.8s ease-in-out;
+  border-radius: 20px;
+  overflow: hidden;
+ }
+  th,
+  td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  tr:nth-child(even) {
+    background-color: rgba(119, 145, 153, 0.192);
+  }
+
+  tr:hover {
+    transition: background-color 200ms;
+    background-color: rgba(179, 255, 0, 0.418);
+    cursor: pointer;
+  }
+
+  thead {
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+
+  thead tr:hover {
+    background-color: inherit;
+  }
