@@ -1,5 +1,3 @@
-import classes from "@/components/Table/UserTable.module.css";
-
 export function UserTable({ users, config }) {
   return <table className='styleTable'> 
     <thead>
