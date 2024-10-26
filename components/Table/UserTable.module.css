@@ -6,7 +6,7 @@
   border-radius: 20px;
   overflow: hidden;
 
-  & th,
+  th,
   td {
     border: 1px solid gray;
     padding: 10px;
@@ -14,22 +14,22 @@
   }
 
 
-  & tr:nth-child(even) {
+  tr:nth-child(even) {
     background-color: rgba(119, 145, 153, 0.192);
   }
 
-  & tr:hover {
+  tr:hover {
     transition: background-color 200ms;
     background-color: rgba(179, 255, 0, 0.418);
     cursor: pointer;
   }
 
-  & thead {
+  thead {
     text-transform: uppercase;
     font-weight: bolder;
   }
 
-  & thead tr:hover {
+  thead tr:hover {
     background-color: inherit;
   }
 
